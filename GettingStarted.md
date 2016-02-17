@@ -6,34 +6,36 @@
 ```
 git clone <clone url>
 ```
+This should create a new folder with the name of your repository, in this case “MirrorMark”. 
 
-This should create a new folder with the name of your repository, in this case “MirrorMark”. You will want to move into this directory:
+###1. Move into this directory
 ```
 cd MirrorMark
 ```
 
-##You will then need to create a new gh-pages branch:
+###2. Create a new gh-pages branch
+
 ```
 git checkout –orphan gh-pages
 ```
 
-##And remove all existing files:
+###3. Remove all existing files
 ```
 git rm –rf .
 ```
 
-##Then you will want to add some HTML files and commit them:
+###4. Add some HTML files and commit them
 ```
 git add –A
 git commit –m “My first website!”
 ```
 
-##And then push it to GitHub:
+###5. Push to GitHub:
 ```
 git push –u origin gh-pages
 ```
 
-*You will need to enter your username and password.*
+**You will need to enter your username and password.**
 
 ##Next time you want to add some more pages you can use Git add and commit again:
 ```
