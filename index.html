@@ -31,37 +31,40 @@
 <pre><code>git clone &lt;clone url&gt;
 </code></pre>
 
-<p>This should create a new folder with the name of your repository, in this case “MirrorMark”. You will want to move into this directory:</p>
+<p>This should create a new folder with the name of your repository, in this case “MirrorMark”. </p>
+
+<h3>
+<a id="1-move-into-this-directory" class="anchor" href="#1-move-into-this-directory" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Move into this directory</h3>
 
 <pre><code>cd MirrorMark
 </code></pre>
 
-<h2>
-<a id="you-will-then-need-to-create-a-new-gh-pages-branch" class="anchor" href="#you-will-then-need-to-create-a-new-gh-pages-branch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>You will then need to create a new gh-pages branch:</h2>
+<h3>
+<a id="2-create-a-new-gh-pages-branch" class="anchor" href="#2-create-a-new-gh-pages-branch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Create a new gh-pages branch</h3>
 
 <pre><code>git checkout –orphan gh-pages
 </code></pre>
 
-<h2>
-<a id="and-remove-all-existing-files" class="anchor" href="#and-remove-all-existing-files" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>And remove all existing files:</h2>
+<h3>
+<a id="3-remove-all-existing-files" class="anchor" href="#3-remove-all-existing-files" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Remove all existing files</h3>
 
 <pre><code>git rm –rf .
 </code></pre>
 
-<h2>
-<a id="then-you-will-want-to-add-some-html-files-and-commit-them" class="anchor" href="#then-you-will-want-to-add-some-html-files-and-commit-them" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Then you will want to add some HTML files and commit them:</h2>
+<h3>
+<a id="4-add-some-html-files-and-commit-them" class="anchor" href="#4-add-some-html-files-and-commit-them" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4. Add some HTML files and commit them</h3>
 
 <pre><code>git add –A
 git commit –m “My first website!”
 </code></pre>
 
-<h2>
-<a id="and-then-push-it-to-github" class="anchor" href="#and-then-push-it-to-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>And then push it to GitHub:</h2>
+<h3>
+<a id="5-push-to-github" class="anchor" href="#5-push-to-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5. Push to GitHub:</h3>
 
 <pre><code>git push –u origin gh-pages
 </code></pre>
 
-<p><em>You will need to enter your username and password.</em></p>
+<p><strong>You will need to enter your username and password.</strong></p>
 
 <h2>
 <a id="next-time-you-want-to-add-some-more-pages-you-can-use-git-add-and-commit-again" class="anchor" href="#next-time-you-want-to-add-some-more-pages-you-can-use-git-add-and-commit-again" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Next time you want to add some more pages you can use Git add and commit again:</h2>
