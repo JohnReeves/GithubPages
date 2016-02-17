@@ -1,6 +1,7 @@
 #Sign in to GitHub and Cloud9. 
 
 ##In GitHub look for the clone url:
+![clone url](http://imgur.com/cqbr7xf)
 
 ##In Cloud9, enter the terminal (it should be at the bottom) and type:
 ```
