@@ -1,4 +1,4 @@
-#Sign in to GitHub and Cloud9. 
+#Sign in to GitHub and Cloud9
 
 ##In GitHub look for the clone url:
 ![clone url](http://imgur.com/cqbr7xf.png)
